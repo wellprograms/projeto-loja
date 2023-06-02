@@ -1,6 +1,7 @@
 from classes import *
 
 print ('version == 0000.1')
+print('Wellyson')
 exit = False
 nome_loja = input('Nome e endereço da loja, por favor:').split()
 
@@ -14,6 +15,7 @@ while exit == False:
         loja.acao_estoque()
     elif opcao == 3:
         loja.acao_sistema_caixa()
+
 
 
 
